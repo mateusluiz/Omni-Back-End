@@ -8,7 +8,7 @@ module.exports = {
 
         return response.json(devs);
     },
-    /*
+
     async destroy(request, response){
         const { id } = request.params;
 
@@ -16,7 +16,7 @@ module.exports = {
 
         return response.json( {message: 'Sucesso'} );
     },
-    */
+
     async store(request, response) {
         const {github_username, techs, latitude, longitude} =  request.body;
 
